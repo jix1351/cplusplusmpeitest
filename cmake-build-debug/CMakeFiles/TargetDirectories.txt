@@ -1,3 +1,3 @@
-C:/Users/tema/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/untitled3.dir
-C:/Users/tema/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/tema/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/artemijtarasov/CLionProjects/cplusplusmpeitest/cmake-build-debug/CMakeFiles/untitled3.dir
+/Users/artemijtarasov/CLionProjects/cplusplusmpeitest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/artemijtarasov/CLionProjects/cplusplusmpeitest/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -23,8 +23,7 @@ int main(){
                     break;
                 }
             }
-        }
-        catch (invalid_argument) {
+        } catch (invalid_argument) {
             wcout << L"Только числа! Повтори ввод:\n";
             cin >> input;
         }

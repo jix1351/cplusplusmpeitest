@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "untitled3.exe"
-		},
-		{
-			"path" : "untitled3.pdb"
+			"path" : "untitled3"
 		}
 	],
 	"backtrace" : 1,
@@ -38,10 +35,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
 				},
 				{
-					"fragment" : "-std=gnu++23"
+					"fragment" : "-std=gnu++2b"
 				}
 			],
 			"language" : "CXX",
@@ -71,16 +68,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "untitled3",
-	"nameOnDisk" : "untitled3.exe",
+	"nameOnDisk" : "untitled3",
 	"paths" : 
 	{
 		"build" : ".",
@@ -101,7 +94,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "number6.cpp",
+			"path" : "number7.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
