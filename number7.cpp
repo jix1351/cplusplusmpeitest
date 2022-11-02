@@ -5,8 +5,9 @@ using namespace std;
 // 25
 
 int main(){
+    setlocale(0,"");
     string input;
-    wcout << L"Введите значение заданной величины\n";
+    wcout << L"Введите значение заданной величины:\n";
     cin >> input;
     float N;
     while (true) {
@@ -19,10 +20,10 @@ int main(){
         }
     }
     float matrix[6][3];
-
+    wcout << L"Введите значения массива:\n";
     for(int i=0;i<6;i++){
         for(int j=0;j<3;j++){
-            cout << "[" << i + 1 << "]"<< "[" << j+1 << "]" << ":";
+            wcout << L"[" << i + 1 << L"]" << L"[" << j + 1 << L"]" << L":";
             cin >> input;
             while (true) {
                 try {
@@ -30,23 +31,24 @@ int main(){
                     break;
                 }catch(invalid_argument){
                     wcout << L"Только числа! Повтори ввод:\n";
-                    cout << "[" << i + 1 << "]"<< "[" << j+1 << "]" << ":";
+                    wcout << L"[" << i + 1 << L"]" << L"[" << j + 1 << L"]" << L":";
                     cin >> input;
                 }
             }
         }
     }
     int calc = 0;
+    wcout << L"Абсолютная величина суммы элементов превышают заданную велечину в строках:\n";
     for(int i=0;i<6;i++){
         float sum=0;
         for(int j=0;j<3;j++){
-            sum += abs(matrix[i][j]);
+            sum += matrix[i][j];
         }
-        if(sum>N){
+        if(abs(sum)>N){
             calc++;
-            cout << i+1 << endl;
+            wcout << L"№ " << i+1 << endl;
         }
     }
-    cout << calc;
+    wcout << L"Общее кол-во таких элементов: " << calc;
     return 0;
 }

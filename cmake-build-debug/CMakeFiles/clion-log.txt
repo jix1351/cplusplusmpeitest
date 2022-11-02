@@ -1,4 +1,4 @@
-/private/var/folders/k0/y3dc09fs6zq1rclw15qql0zw0000gn/T/AppTranslocation/7453899A-AA4C-4FE2-BA26-68F55FE013DD/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/artemijtarasov/CLionProjects/cplusplusmpeitest -B /Users/artemijtarasov/CLionProjects/cplusplusmpeitest/cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\tema\CLionProjects\untitled3 -B C:\Users\tema\CLionProjects\untitled3\cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/artemijtarasov/CLionProjects/cplusplusmpeitest/cmake-build-debug
+-- Build files have been written to: C:/Users/tema/CLionProjects/untitled3/cmake-build-debug

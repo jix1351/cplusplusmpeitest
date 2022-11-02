@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/tema/CLionProjects/untitled3/cmake-build-debug/
 
 build cmake_object_order_depends_target_untitled3: phony || CMakeFiles/untitled3.dir
 
-build CMakeFiles/untitled3.dir/number6.cpp.obj: CXX_COMPILER__untitled3_Debug C$:/Users/tema/CLionProjects/untitled3/number6.cpp || cmake_object_order_depends_target_untitled3
-  DEP_FILE = CMakeFiles\untitled3.dir\number6.cpp.obj.d
+build CMakeFiles/untitled3.dir/number10.cpp.obj: CXX_COMPILER__untitled3_Debug C$:/Users/tema/CLionProjects/untitled3/number10.cpp || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\number10.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\untitled3.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled3.dir
@@ -63,7 +63,7 @@ build CMakeFiles/untitled3.dir/number6.cpp.obj: CXX_COMPILER__untitled3_Debug C$
 #############################################
 # Link the executable untitled3.exe
 
-build untitled3.exe: CXX_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3.dir/number6.cpp.obj
+build untitled3.exe: CXX_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3.dir/number10.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled3.dir
